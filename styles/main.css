@@ -1,0 +1,152 @@
+/* font-family: 'Roboto', sans-serif; */
+
+body {
+  padding: 0;
+  margin: 0;
+}
+h1,h2,h3,h4,h5 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700
+  padding: 0;
+  margin: 0;
+  color: #161616;
+}
+
+a {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500
+  padding: 0;
+  margin: 0;
+  color: darkblue;
+}
+
+p {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500
+  padding: 0;
+  margin: 0;
+  color: #161616;
+}
+
+h1 {
+  font-size: 2.5em;
+}
+
+h2 {
+  font-size: 2em;
+}
+
+h3 {
+  font-size: 1.8em;
+}
+
+p {
+  font-size: 1.3em;
+  line-height: 1em;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 20px 20px;
+  text-align: center;
+
+}
+
+.logo img {
+  max-width: 50%;
+}
+
+.hero {
+  width: 100%;
+  height: 300px;
+  background-image: url("../images/Daren-Hero-Image.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+
+.site-title {
+  padding: 10px 0;
+}
+
+header {
+  margin-bottom: 20px;
+}
+
+hr.head-line {
+  background: #aeaeae;
+  height: 2px;
+  border: none;
+  margin-bottom: 10px;
+}
+
+.featured-work h2 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 900;
+  margin: 20px 0 10px;
+}
+
+.featured-work h3 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+}
+
+.port img {
+  max-width: 100%;
+}
+
+.port {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+
+/*===MEDIA QUERIES===*/
+
+@media screen and (min-width: 768px) {
+    .featured-thumbs{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .port {
+      width: 32.333%;
+    }
+
+    .port img {
+      margin-bottom: 10px;
+    }
+
+    .port h3 {
+      font-size: 170%;
+    }
+
+    .logo img {
+      max-width: 40%;
+    }
+}
+
+@media screen and (min-width: 850px) {
+    header {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+    }
+    .logo {
+      text-align: left;
+    }
+    .site-title {
+      font-size: 80%;
+      margin-top: 10px;
+    }
+    header {
+      margin-bottom: 5px;
+    }
+}
+
+@media screen and (min-width: 980px) {
+    .container {
+      width: 980px;
+    }
+}
